@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 5px 0px;
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+}
+.left a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: red;
+    font-family: cursive;
+    font-size: 20px;
+}
+.navbar a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+.mid{
+    margin: 0px 250px;
+}
+.right{
+    margin-left: 50px;
+    float: right;
+}
+.left{
+    float: left;
+}
+.mid li {
+    margin: 50px 50px;
+    list-style: none;
+    float: left;
+    margin: 6px;
+}
+.right li{
+    list-style: none;
+    float: left;
+    margin: 6px;
+}
+.right a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: red;
+    font-family: cursive;
+    font-size: 20px;
+}
+/* portfoilo css */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap');
+
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(144, 243, 51); */
+    /* height: 58vh; */
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hello {
+    font-size: 60px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    margin-top: 22px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 18px;
+    
+}
+
+.moreabout a {
+    color: rgb(128, 125, 125);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.moreabout a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 10px;
+
+}
+
+.button button {
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+}
+.button button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.devpic img {
+    height: 58vh;
+}
+.form-group{
+    font-size: 22px;
+
+}
+.contactform{
+    font-family: 'Signika Negative', sans-serif;
+    padding: 0 34px;
+    padding-top: 70px;
+}
+.contactform h1{
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+}
+.contactform div{
+    padding: 10px;
+}
+#emailHelp{
+    color: gray;
+    margin: 0 5px;
+}
+#emailHelp:hover{
+    color: rgb(209, 135, 135);
+    
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 3px;
+}
+#isclient{
+    flex-direction: row;
+}
+#isclient input{
+    width: 24px;
+    margin: 3px 0;
+}
+.services{
+    font-size: 55px;
+    padding-left: 25px;
+    float: left;
+    
+}
+.h1-s{
+    font-size: 75px;
+    text-align: center;
+    padding: 9px 14px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+}
+.h1-s:hover{
+    color: rgb(0, 0, 0);
+}
+.services2{
+    font-size: 55px;
+    padding-right: 25px;
+    float: right;
+    margin-right: 75px;
+}
+.li-s{
+
+    margin: 35px 75px;
+    list-style: none;
+}
+.btn-s{
+    padding: 9px 14px;
+    border-style: dashed;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+}
+.btn-s:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.blog-h{
+    padding: 5px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.blog-h a {
+    color: rgb(128, 125, 125);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.blog-h a:hover {
+    color: red;
+    font-weight: bold;
+}
